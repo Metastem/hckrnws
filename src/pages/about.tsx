@@ -23,7 +23,6 @@ const About: NextPage = () => {
   const twitter = "https://twitter.com/JokingRajat";
   return (
     <Container>
-      <Text>Hope you like this version of Hacker News!</Text>
       <Section>
         <Text>
           Powered by{" "}
