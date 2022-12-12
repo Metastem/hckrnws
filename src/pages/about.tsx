@@ -19,19 +19,16 @@ const Hyperlink = styled("a", {
 });
 
 const About: NextPage = () => {
-  const github = "https://github.com/rajatkulkarni95/hckrnws";
+  const metastem = "https://metastem.su";
   const twitter = "https://twitter.com/JokingRajat";
   return (
     <Container>
       <Text>Hope you like this version of Hacker News!</Text>
       <Section>
-        <Hyperlink href={github} target="_blank" rel="noopener noreferrer">
-          Source Code
-        </Hyperlink>
         <Text>
-          Designed and Developed by{" "}
-          <Hyperlink href={twitter} target="_blank" rel="noopener noreferrer">
-            Rajat
+          Powered by{" "}
+          <Hyperlink href={metastem} target="_blank" rel="noopener noreferrer">
+            Metastem
           </Hyperlink>
         </Text>
       </Section>
